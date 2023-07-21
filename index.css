@@ -72,6 +72,7 @@ button:hover{
     outline: none;
     cursor: pointer;
     box-align: center;
+    box-shadow: 2px 2px 2px black;
 }
 .popup p{
     font-size: 14px;
@@ -131,4 +132,44 @@ a{
         width:50%;
         margin:10px;
     }   
+    
+.popup{
+    background-color:#ffffff;
+    width: 100px;
+    padding: 30px 40px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display:none;
+    box-shadow: 2px 2px 2px black;
+}
+.popup button{
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    font-size: 30px;
+    color:rgb(124, 255, 211);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-align: center;
+}
+.popup p{
+    font-size: 14px;
+    text-align:justify;
+    margin: 20px 0;
+}
+a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: auto;
+    text-align:center;
+    color:rgb(0, 111, 191);
+    text-decoration: none;
+    padding:5px 0  ;
+}
 }
