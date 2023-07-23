@@ -1,7 +1,7 @@
 const messages = document.getElementById("messages"),
       text = document.getElementById("text"),
       submit = document.getElementById("submit");
-const a =["crush","lover","love","hate","boyfriend","girlfriend","bf","gf","fuck","mota","bitch","suck","sex","sexy","cute"];
+const a =["crush","lover","love","hate","boyfriend","girlfriend","bf","gf","fuck","mota","bitch","suck","sex","sexy","cute","sexy"];
 var flag = 0;
 function word_checker(){
     for (let i=0;i<a.length;i++){
