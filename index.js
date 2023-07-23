@@ -28,8 +28,9 @@ const messages = document.getElementById("messages"),
 //         );
 //     }
 // }
+
 function send(){
-        messages.innerHTML = "<h3>your message is forwarded to the admin</h3>";
+  messages.innerHTML = "<h3>your message is forwarded to the admin</h3>";
         Email.send({
             SecureToken : "a33ab415-b48e-4439-9642-7635e19d47bd",
             To : 'symbinagpur@gmail.com',
@@ -39,5 +40,9 @@ function send(){
         }).then(
           message => alert(message+"... your message is forwarded to the admin")
         );
+  setTimeout(function(){
+        window.location.reload();
+  },4000);
+        
 }
 submit.addEventListener("click",send);
