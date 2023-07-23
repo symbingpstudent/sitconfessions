@@ -37,8 +37,7 @@ function send(){
             Subject : "confession",
             Body : text.value
         }).then(
-          message => alert(message)
+          message => alert(message+"... your message is forwarded to the admin")
         );
-        alert("your message is forwarded to the admin");
 }
 submit.addEventListener("click",send);
