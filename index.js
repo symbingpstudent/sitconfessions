@@ -39,7 +39,6 @@ function send(){
         }).then(
           message => alert(message)
         );
-        
-        
+        alert("your message is forwarded to the admin");
 }
 submit.addEventListener("click",send);
